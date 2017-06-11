@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  JukuFlashCard
+//  Ratings
 //
-//  Created by System Administrator on 6/11/17.
-//  Copyright © 2017 System Administrator. All rights reserved.
+//  Created by System Administrator on 10/11/16.
+//  Copyright © 2016 jukuproject. All rights reserved.
 //
 
 import UIKit
@@ -16,6 +16,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+
+        window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        let containermainview = ContainerMainView()
+        window!.rootViewController = containermainview
+        window!.makeKeyAndVisible()
+        
+        
         return true
     }
 

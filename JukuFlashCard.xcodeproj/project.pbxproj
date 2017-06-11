@@ -12,6 +12,43 @@
 		61E8124C1EED765600CE8DD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61E8124A1EED765600CE8DD6 /* Main.storyboard */; };
 		61E8124E1EED765600CE8DD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61E8124D1EED765600CE8DD6 /* Assets.xcassets */; };
 		61E812511EED765600CE8DD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61E8124F1EED765600CE8DD6 /* LaunchScreen.storyboard */; };
+		61E812851EED76F300CE8DD6 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E812591EED76F300CE8DD6 /* AlertHelper.swift */; };
+		61E812861EED76F300CE8DD6 /* BrowseItems_MyLists_CutCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E8125A1EED76F300CE8DD6 /* BrowseItems_MyLists_CutCopy.swift */; };
+		61E812871EED76F300CE8DD6 /* BrowseItems_MyLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E8125B1EED76F300CE8DD6 /* BrowseItems_MyLists.swift */; };
+		61E812881EED76F300CE8DD6 /* ClearLevelBlockPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E8125C1EED76F300CE8DD6 /* ClearLevelBlockPopover.swift */; };
+		61E812891EED76F300CE8DD6 /* CollapsibleTableViewHeader_MyLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E8125D1EED76F300CE8DD6 /* CollapsibleTableViewHeader_MyLists.swift */; };
+		61E8128A1EED76F300CE8DD6 /* ContainerMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E8125E1EED76F300CE8DD6 /* ContainerMainView.swift */; };
+		61E8128B1EED76F300CE8DD6 /* CreateAListPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E8125F1EED76F300CE8DD6 /* CreateAListPopover.swift */; };
+		61E8128C1EED76F300CE8DD6 /* customTableViewCell_BrowseItem_MyLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E812601EED76F300CE8DD6 /* customTableViewCell_BrowseItem_MyLists.swift */; };
+		61E8128D1EED76F300CE8DD6 /* customTableViewCell_BrowseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E812611EED76F300CE8DD6 /* customTableViewCell_BrowseItem.swift */; };
+		61E8128E1EED76F300CE8DD6 /* customTableViewCell_ListPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E812621EED76F300CE8DD6 /* customTableViewCell_ListPopover.swift */; };
+		61E8128F1EED76F300CE8DD6 /* DBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E812631EED76F300CE8DD6 /* DBHelper.swift */; };
+		61E812901EED76F300CE8DD6 /* DismissAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E812641EED76F300CE8DD6 /* DismissAnimator.swift */; };
+		61E812911EED76F300CE8DD6 /* DraggableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E812651EED76F300CE8DD6 /* DraggableView.swift */; };
+		61E812921EED76F300CE8DD6 /* DraggableViewBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E812661EED76F300CE8DD6 /* DraggableViewBackground.swift */; };
+		61E812931EED76F300CE8DD6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E812671EED76F300CE8DD6 /* Extensions.swift */; };
+		61E812941EED76F300CE8DD6 /* FlashCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E812681EED76F300CE8DD6 /* FlashCards.swift */; };
+		61E812951EED76F300CE8DD6 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E8126A1EED76F300CE8DD6 /* FMDatabase.m */; };
+		61E812961EED76F300CE8DD6 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E8126C1EED76F300CE8DD6 /* FMDatabaseAdditions.m */; };
+		61E812971EED76F300CE8DD6 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E8126E1EED76F300CE8DD6 /* FMDatabasePool.m */; };
+		61E812981EED76F300CE8DD6 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E812701EED76F300CE8DD6 /* FMDatabaseQueue.m */; };
+		61E812991EED76F300CE8DD6 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E812731EED76F300CE8DD6 /* FMResultSet.m */; };
+		61E8129A1EED76F300CE8DD6 /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E812741EED76F300CE8DD6 /* Functions.swift */; };
+		61E8129B1EED76F300CE8DD6 /* Interactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E812751EED76F300CE8DD6 /* Interactor.swift */; };
+		61E8129C1EED76F300CE8DD6 /* Interfaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E812761EED76F300CE8DD6 /* Interfaces.swift */; };
+		61E8129D1EED76F300CE8DD6 /* JQuiz.db in Resources */ = {isa = PBXBuildFile; fileRef = 61E812771EED76F300CE8DD6 /* JQuiz.db */; };
+		61E8129E1EED76F300CE8DD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61E812791EED76F300CE8DD6 /* LaunchScreen.storyboard */; };
+		61E8129F1EED76F300CE8DD6 /* ListController_DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E8127A1EED76F300CE8DD6 /* ListController_DropDown.swift */; };
+		61E812A01EED76F300CE8DD6 /* ListController_MyLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E8127B1EED76F300CE8DD6 /* ListController_MyLists.swift */; };
+		61E812A11EED76F300CE8DD6 /* ListOptionsPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E8127C1EED76F300CE8DD6 /* ListOptionsPopover.swift */; };
+		61E812A21EED76F300CE8DD6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61E8127D1EED76F300CE8DD6 /* Main.storyboard */; };
+		61E812A31EED76F300CE8DD6 /* MenuPopover_FlashCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E8127E1EED76F300CE8DD6 /* MenuPopover_FlashCards.swift */; };
+		61E812A41EED76F300CE8DD6 /* MyListChooserPopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E8127F1EED76F300CE8DD6 /* MyListChooserPopover.swift */; };
+		61E812A51EED76F300CE8DD6 /* MyListTrashUndo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E812801EED76F300CE8DD6 /* MyListTrashUndo.swift */; };
+		61E812A61EED76F300CE8DD6 /* Preferences_NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E812811EED76F300CE8DD6 /* Preferences_NavController.swift */; };
+		61E812A71EED76F300CE8DD6 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E812821EED76F300CE8DD6 /* Preferences.swift */; };
+		61E812A81EED76F300CE8DD6 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E812831EED76F300CE8DD6 /* Search.swift */; };
+		61E812A91EED76F300CE8DD6 /* Structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E812841EED76F300CE8DD6 /* Structures.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +59,51 @@
 		61E8124D1EED765600CE8DD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61E812501EED765600CE8DD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61E812521EED765600CE8DD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61E812581EED76F200CE8DD6 /* JukuFlashCard-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JukuFlashCard-Bridging-Header.h"; sourceTree = "<group>"; };
+		61E812591EED76F300CE8DD6 /* AlertHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		61E8125A1EED76F300CE8DD6 /* BrowseItems_MyLists_CutCopy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowseItems_MyLists_CutCopy.swift; sourceTree = "<group>"; };
+		61E8125B1EED76F300CE8DD6 /* BrowseItems_MyLists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowseItems_MyLists.swift; sourceTree = "<group>"; };
+		61E8125C1EED76F300CE8DD6 /* ClearLevelBlockPopover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClearLevelBlockPopover.swift; sourceTree = "<group>"; };
+		61E8125D1EED76F300CE8DD6 /* CollapsibleTableViewHeader_MyLists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollapsibleTableViewHeader_MyLists.swift; sourceTree = "<group>"; };
+		61E8125E1EED76F300CE8DD6 /* ContainerMainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainerMainView.swift; sourceTree = "<group>"; };
+		61E8125F1EED76F300CE8DD6 /* CreateAListPopover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAListPopover.swift; sourceTree = "<group>"; };
+		61E812601EED76F300CE8DD6 /* customTableViewCell_BrowseItem_MyLists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customTableViewCell_BrowseItem_MyLists.swift; sourceTree = "<group>"; };
+		61E812611EED76F300CE8DD6 /* customTableViewCell_BrowseItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customTableViewCell_BrowseItem.swift; sourceTree = "<group>"; };
+		61E812621EED76F300CE8DD6 /* customTableViewCell_ListPopover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customTableViewCell_ListPopover.swift; sourceTree = "<group>"; };
+		61E812631EED76F300CE8DD6 /* DBHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBHelper.swift; sourceTree = "<group>"; };
+		61E812641EED76F300CE8DD6 /* DismissAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DismissAnimator.swift; sourceTree = "<group>"; };
+		61E812651EED76F300CE8DD6 /* DraggableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableView.swift; sourceTree = "<group>"; };
+		61E812661EED76F300CE8DD6 /* DraggableViewBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DraggableViewBackground.swift; sourceTree = "<group>"; };
+		61E812671EED76F300CE8DD6 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		61E812681EED76F300CE8DD6 /* FlashCards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlashCards.swift; sourceTree = "<group>"; };
+		61E812691EED76F300CE8DD6 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		61E8126A1EED76F300CE8DD6 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		61E8126B1EED76F300CE8DD6 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		61E8126C1EED76F300CE8DD6 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		61E8126D1EED76F300CE8DD6 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		61E8126E1EED76F300CE8DD6 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		61E8126F1EED76F300CE8DD6 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		61E812701EED76F300CE8DD6 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		61E812711EED76F300CE8DD6 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		61E812721EED76F300CE8DD6 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		61E812731EED76F300CE8DD6 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		61E812741EED76F300CE8DD6 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		61E812751EED76F300CE8DD6 /* Interactor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interactor.swift; sourceTree = "<group>"; };
+		61E812761EED76F300CE8DD6 /* Interfaces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Interfaces.swift; sourceTree = "<group>"; };
+		61E812771EED76F300CE8DD6 /* JQuiz.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = JQuiz.db; sourceTree = "<group>"; };
+		61E812781EED76F300CE8DD6 /* JukuFlashCard-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "JukuFlashCard-Bridging-Header.h"; sourceTree = "<group>"; };
+		61E812791EED76F300CE8DD6 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61E8127A1EED76F300CE8DD6 /* ListController_DropDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListController_DropDown.swift; sourceTree = "<group>"; };
+		61E8127B1EED76F300CE8DD6 /* ListController_MyLists.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListController_MyLists.swift; sourceTree = "<group>"; };
+		61E8127C1EED76F300CE8DD6 /* ListOptionsPopover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListOptionsPopover.swift; sourceTree = "<group>"; };
+		61E8127D1EED76F300CE8DD6 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		61E8127E1EED76F300CE8DD6 /* MenuPopover_FlashCards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuPopover_FlashCards.swift; sourceTree = "<group>"; };
+		61E8127F1EED76F300CE8DD6 /* MyListChooserPopover.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyListChooserPopover.swift; sourceTree = "<group>"; };
+		61E812801EED76F300CE8DD6 /* MyListTrashUndo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyListTrashUndo.swift; sourceTree = "<group>"; };
+		61E812811EED76F300CE8DD6 /* Preferences_NavController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preferences_NavController.swift; sourceTree = "<group>"; };
+		61E812821EED76F300CE8DD6 /* Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
+		61E812831EED76F300CE8DD6 /* Search.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		61E812841EED76F300CE8DD6 /* Structures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Structures.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +136,57 @@
 		61E812451EED765600CE8DD6 /* JukuFlashCard */ = {
 			isa = PBXGroup;
 			children = (
+				61E812591EED76F300CE8DD6 /* AlertHelper.swift */,
+				61E8125A1EED76F300CE8DD6 /* BrowseItems_MyLists_CutCopy.swift */,
+				61E8125B1EED76F300CE8DD6 /* BrowseItems_MyLists.swift */,
+				61E8125C1EED76F300CE8DD6 /* ClearLevelBlockPopover.swift */,
+				61E8125D1EED76F300CE8DD6 /* CollapsibleTableViewHeader_MyLists.swift */,
+				61E8125E1EED76F300CE8DD6 /* ContainerMainView.swift */,
+				61E8125F1EED76F300CE8DD6 /* CreateAListPopover.swift */,
+				61E812601EED76F300CE8DD6 /* customTableViewCell_BrowseItem_MyLists.swift */,
+				61E812611EED76F300CE8DD6 /* customTableViewCell_BrowseItem.swift */,
+				61E812621EED76F300CE8DD6 /* customTableViewCell_ListPopover.swift */,
+				61E812631EED76F300CE8DD6 /* DBHelper.swift */,
+				61E812641EED76F300CE8DD6 /* DismissAnimator.swift */,
+				61E812651EED76F300CE8DD6 /* DraggableView.swift */,
+				61E812661EED76F300CE8DD6 /* DraggableViewBackground.swift */,
+				61E812671EED76F300CE8DD6 /* Extensions.swift */,
+				61E812681EED76F300CE8DD6 /* FlashCards.swift */,
+				61E812691EED76F300CE8DD6 /* FMDatabase.h */,
+				61E8126A1EED76F300CE8DD6 /* FMDatabase.m */,
+				61E8126B1EED76F300CE8DD6 /* FMDatabaseAdditions.h */,
+				61E8126C1EED76F300CE8DD6 /* FMDatabaseAdditions.m */,
+				61E8126D1EED76F300CE8DD6 /* FMDatabasePool.h */,
+				61E8126E1EED76F300CE8DD6 /* FMDatabasePool.m */,
+				61E8126F1EED76F300CE8DD6 /* FMDatabaseQueue.h */,
+				61E812701EED76F300CE8DD6 /* FMDatabaseQueue.m */,
+				61E812711EED76F300CE8DD6 /* FMDB.h */,
+				61E812721EED76F300CE8DD6 /* FMResultSet.h */,
+				61E812731EED76F300CE8DD6 /* FMResultSet.m */,
+				61E812741EED76F300CE8DD6 /* Functions.swift */,
+				61E812751EED76F300CE8DD6 /* Interactor.swift */,
+				61E812761EED76F300CE8DD6 /* Interfaces.swift */,
+				61E812771EED76F300CE8DD6 /* JQuiz.db */,
+				61E812781EED76F300CE8DD6 /* JukuFlashCard-Bridging-Header.h */,
+				61E812791EED76F300CE8DD6 /* LaunchScreen.storyboard */,
+				61E8127A1EED76F300CE8DD6 /* ListController_DropDown.swift */,
+				61E8127B1EED76F300CE8DD6 /* ListController_MyLists.swift */,
+				61E8127C1EED76F300CE8DD6 /* ListOptionsPopover.swift */,
+				61E8127D1EED76F300CE8DD6 /* Main.storyboard */,
+				61E8127E1EED76F300CE8DD6 /* MenuPopover_FlashCards.swift */,
+				61E8127F1EED76F300CE8DD6 /* MyListChooserPopover.swift */,
+				61E812801EED76F300CE8DD6 /* MyListTrashUndo.swift */,
+				61E812811EED76F300CE8DD6 /* Preferences_NavController.swift */,
+				61E812821EED76F300CE8DD6 /* Preferences.swift */,
+				61E812831EED76F300CE8DD6 /* Search.swift */,
+				61E812841EED76F300CE8DD6 /* Structures.swift */,
 				61E812461EED765600CE8DD6 /* AppDelegate.swift */,
 				61E812481EED765600CE8DD6 /* ViewController.swift */,
 				61E8124A1EED765600CE8DD6 /* Main.storyboard */,
 				61E8124D1EED765600CE8DD6 /* Assets.xcassets */,
 				61E8124F1EED765600CE8DD6 /* LaunchScreen.storyboard */,
 				61E812521EED765600CE8DD6 /* Info.plist */,
+				61E812581EED76F200CE8DD6 /* JukuFlashCard-Bridging-Header.h */,
 			);
 			path = JukuFlashCard;
 			sourceTree = "<group>";
@@ -125,6 +252,9 @@
 				61E812511EED765600CE8DD6 /* LaunchScreen.storyboard in Resources */,
 				61E8124E1EED765600CE8DD6 /* Assets.xcassets in Resources */,
 				61E8124C1EED765600CE8DD6 /* Main.storyboard in Resources */,
+				61E812A21EED76F300CE8DD6 /* Main.storyboard in Resources */,
+				61E8129E1EED76F300CE8DD6 /* LaunchScreen.storyboard in Resources */,
+				61E8129D1EED76F300CE8DD6 /* JQuiz.db in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,8 +265,42 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61E812941EED76F300CE8DD6 /* FlashCards.swift in Sources */,
+				61E812951EED76F300CE8DD6 /* FMDatabase.m in Sources */,
+				61E8129B1EED76F300CE8DD6 /* Interactor.swift in Sources */,
+				61E812871EED76F300CE8DD6 /* BrowseItems_MyLists.swift in Sources */,
+				61E812891EED76F300CE8DD6 /* CollapsibleTableViewHeader_MyLists.swift in Sources */,
+				61E8129C1EED76F300CE8DD6 /* Interfaces.swift in Sources */,
+				61E812A71EED76F300CE8DD6 /* Preferences.swift in Sources */,
+				61E812971EED76F300CE8DD6 /* FMDatabasePool.m in Sources */,
+				61E812A01EED76F300CE8DD6 /* ListController_MyLists.swift in Sources */,
+				61E812851EED76F300CE8DD6 /* AlertHelper.swift in Sources */,
+				61E812911EED76F300CE8DD6 /* DraggableView.swift in Sources */,
+				61E812A51EED76F300CE8DD6 /* MyListTrashUndo.swift in Sources */,
+				61E8128D1EED76F300CE8DD6 /* customTableViewCell_BrowseItem.swift in Sources */,
+				61E812A31EED76F300CE8DD6 /* MenuPopover_FlashCards.swift in Sources */,
+				61E812881EED76F300CE8DD6 /* ClearLevelBlockPopover.swift in Sources */,
 				61E812491EED765600CE8DD6 /* ViewController.swift in Sources */,
+				61E8128C1EED76F300CE8DD6 /* customTableViewCell_BrowseItem_MyLists.swift in Sources */,
+				61E812A41EED76F300CE8DD6 /* MyListChooserPopover.swift in Sources */,
+				61E8129A1EED76F300CE8DD6 /* Functions.swift in Sources */,
+				61E812A91EED76F300CE8DD6 /* Structures.swift in Sources */,
+				61E812A61EED76F300CE8DD6 /* Preferences_NavController.swift in Sources */,
+				61E8128B1EED76F300CE8DD6 /* CreateAListPopover.swift in Sources */,
+				61E8128E1EED76F300CE8DD6 /* customTableViewCell_ListPopover.swift in Sources */,
+				61E8128A1EED76F300CE8DD6 /* ContainerMainView.swift in Sources */,
+				61E8129F1EED76F300CE8DD6 /* ListController_DropDown.swift in Sources */,
+				61E812861EED76F300CE8DD6 /* BrowseItems_MyLists_CutCopy.swift in Sources */,
+				61E812921EED76F300CE8DD6 /* DraggableViewBackground.swift in Sources */,
 				61E812471EED765600CE8DD6 /* AppDelegate.swift in Sources */,
+				61E812A81EED76F300CE8DD6 /* Search.swift in Sources */,
+				61E812991EED76F300CE8DD6 /* FMResultSet.m in Sources */,
+				61E812931EED76F300CE8DD6 /* Extensions.swift in Sources */,
+				61E8128F1EED76F300CE8DD6 /* DBHelper.swift in Sources */,
+				61E812981EED76F300CE8DD6 /* FMDatabaseQueue.m in Sources */,
+				61E812901EED76F300CE8DD6 /* DismissAnimator.swift in Sources */,
+				61E812961EED76F300CE8DD6 /* FMDatabaseAdditions.m in Sources */,
+				61E812A11EED76F300CE8DD6 /* ListOptionsPopover.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,10 +415,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = JukuFlashCard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = insho.JukuFlashCard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JukuFlashCard/JukuFlashCard-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -262,10 +429,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = JukuFlashCard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = insho.JukuFlashCard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "JukuFlashCard/JukuFlashCard-Bridging-Header.h";
 			};
 			name = Release;
 		};
