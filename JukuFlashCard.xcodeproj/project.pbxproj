@@ -156,22 +156,11 @@
 				61E812661EED76F300CE8DD6 /* DraggableViewBackground.swift */,
 				61E812671EED76F300CE8DD6 /* Extensions.swift */,
 				61E812681EED76F300CE8DD6 /* FlashCards.swift */,
-				61E812691EED76F300CE8DD6 /* FMDatabase.h */,
-				61E8126A1EED76F300CE8DD6 /* FMDatabase.m */,
-				61E8126B1EED76F300CE8DD6 /* FMDatabaseAdditions.h */,
-				61E8126C1EED76F300CE8DD6 /* FMDatabaseAdditions.m */,
-				61E8126D1EED76F300CE8DD6 /* FMDatabasePool.h */,
-				61E8126E1EED76F300CE8DD6 /* FMDatabasePool.m */,
-				61E8126F1EED76F300CE8DD6 /* FMDatabaseQueue.h */,
-				61E812701EED76F300CE8DD6 /* FMDatabaseQueue.m */,
-				61E812711EED76F300CE8DD6 /* FMDB.h */,
-				61E812721EED76F300CE8DD6 /* FMResultSet.h */,
-				61E812731EED76F300CE8DD6 /* FMResultSet.m */,
+				61E812AC1EED79A400CE8DD6 /* FMDB */,
 				61E812741EED76F300CE8DD6 /* Functions.swift */,
 				61E812751EED76F300CE8DD6 /* Interactor.swift */,
 				61E812761EED76F300CE8DD6 /* Interfaces.swift */,
 				61E812771EED76F300CE8DD6 /* JQuiz.db */,
-				61E812781EED76F300CE8DD6 /* JukuFlashCard-Bridging-Header.h */,
 				61E812791EED76F300CE8DD6 /* LaunchScreen.storyboard */,
 				61E8127A1EED76F300CE8DD6 /* ListController_DropDown.swift */,
 				61E8127B1EED76F300CE8DD6 /* ListController_MyLists.swift */,
@@ -193,6 +182,25 @@
 				61E812581EED76F200CE8DD6 /* JukuFlashCard-Bridging-Header.h */,
 			);
 			path = JukuFlashCard;
+			sourceTree = "<group>";
+		};
+		61E812AC1EED79A400CE8DD6 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				61E812781EED76F300CE8DD6 /* JukuFlashCard-Bridging-Header.h */,
+				61E812691EED76F300CE8DD6 /* FMDatabase.h */,
+				61E8126A1EED76F300CE8DD6 /* FMDatabase.m */,
+				61E8126B1EED76F300CE8DD6 /* FMDatabaseAdditions.h */,
+				61E8126C1EED76F300CE8DD6 /* FMDatabaseAdditions.m */,
+				61E8126D1EED76F300CE8DD6 /* FMDatabasePool.h */,
+				61E8126E1EED76F300CE8DD6 /* FMDatabasePool.m */,
+				61E8126F1EED76F300CE8DD6 /* FMDatabaseQueue.h */,
+				61E812701EED76F300CE8DD6 /* FMDatabaseQueue.m */,
+				61E812711EED76F300CE8DD6 /* FMDB.h */,
+				61E812721EED76F300CE8DD6 /* FMResultSet.h */,
+				61E812731EED76F300CE8DD6 /* FMResultSet.m */,
+			);
+			name = FMDB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
