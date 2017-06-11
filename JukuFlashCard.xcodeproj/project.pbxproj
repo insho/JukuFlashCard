@@ -49,6 +49,7 @@
 		61E812A71EED76F300CE8DD6 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E812821EED76F300CE8DD6 /* Preferences.swift */; };
 		61E812A81EED76F300CE8DD6 /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E812831EED76F300CE8DD6 /* Search.swift */; };
 		61E812A91EED76F300CE8DD6 /* Structures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E812841EED76F300CE8DD6 /* Structures.swift */; };
+		61E812AB1EED778100CE8DD6 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 61E812AA1EED778100CE8DD6 /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -104,6 +105,7 @@
 		61E812821EED76F300CE8DD6 /* Preferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Preferences.swift; sourceTree = "<group>"; };
 		61E812831EED76F300CE8DD6 /* Search.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
 		61E812841EED76F300CE8DD6 /* Structures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Structures.swift; sourceTree = "<group>"; };
+		61E812AA1EED778100CE8DD6 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61E812AB1EED778100CE8DD6 /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +123,7 @@
 		61E8123A1EED765500CE8DD6 = {
 			isa = PBXGroup;
 			children = (
+				61E812AA1EED778100CE8DD6 /* libsqlite3.tbd */,
 				61E812451EED765600CE8DD6 /* JukuFlashCard */,
 				61E812441EED765500CE8DD6 /* Products */,
 			);
