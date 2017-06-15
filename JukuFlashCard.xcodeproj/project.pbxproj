@@ -10,7 +10,6 @@
 		61E812471EED765600CE8DD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E812461EED765600CE8DD6 /* AppDelegate.swift */; };
 		61E812491EED765600CE8DD6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E812481EED765600CE8DD6 /* ViewController.swift */; };
 		61E8124E1EED765600CE8DD6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61E8124D1EED765600CE8DD6 /* Assets.xcassets */; };
-		61E812511EED765600CE8DD6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61E8124F1EED765600CE8DD6 /* LaunchScreen.storyboard */; };
 		61E812851EED76F300CE8DD6 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E812591EED76F300CE8DD6 /* AlertHelper.swift */; };
 		61E812861EED76F300CE8DD6 /* BrowseItems_MyLists_CutCopy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E8125A1EED76F300CE8DD6 /* BrowseItems_MyLists_CutCopy.swift */; };
 		61E812871EED76F300CE8DD6 /* BrowseItems_MyLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E8125B1EED76F300CE8DD6 /* BrowseItems_MyLists.swift */; };
@@ -56,7 +55,6 @@
 		61E812461EED765600CE8DD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		61E812481EED765600CE8DD6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		61E8124D1EED765600CE8DD6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		61E812501EED765600CE8DD6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61E812521EED765600CE8DD6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61E812581EED76F200CE8DD6 /* JukuFlashCard-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JukuFlashCard-Bridging-Header.h"; sourceTree = "<group>"; };
 		61E812591EED76F300CE8DD6 /* AlertHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
@@ -156,7 +154,6 @@
 				61E812461EED765600CE8DD6 /* AppDelegate.swift */,
 				61E812481EED765600CE8DD6 /* ViewController.swift */,
 				61E8124D1EED765600CE8DD6 /* Assets.xcassets */,
-				61E8124F1EED765600CE8DD6 /* LaunchScreen.storyboard */,
 				61E812521EED765600CE8DD6 /* Info.plist */,
 				61E812581EED76F200CE8DD6 /* JukuFlashCard-Bridging-Header.h */,
 			);
@@ -306,7 +303,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				61E812511EED765600CE8DD6 /* LaunchScreen.storyboard in Resources */,
 				61E8124E1EED765600CE8DD6 /* Assets.xcassets in Resources */,
 				61E812A21EED76F300CE8DD6 /* Main.storyboard in Resources */,
 				61E8129E1EED76F300CE8DD6 /* LaunchScreen.storyboard in Resources */,
@@ -361,17 +357,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		61E8124F1EED765600CE8DD6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				61E812501EED765600CE8DD6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		61E812531EED765600CE8DD6 /* Debug */ = {
@@ -505,6 +490,7 @@
 				61E812571EED765600CE8DD6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
